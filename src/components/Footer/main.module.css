@@ -1,0 +1,45 @@
+.footer_container {
+  position: relative;
+}
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  background-color: greenyellow;
+}
+.info_container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.info {
+  height: 100%;
+  width: 20%;
+  background-color: orange;
+  display: flex;
+  justify-content: flex-start;
+}
+.coppy_right {
+  margin-left: 25%;
+  margin-top: 17.5%;
+}
+.login_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+}
+.login_button {
+  width: 15%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  background-color: hotpink;
+}
+.button {
+  margin-top: 15%;
+  padding: 2rem;
+  width: 50%;
+  height: 30%;
+}

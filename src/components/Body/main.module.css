@@ -1,0 +1,44 @@
+.body_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: olivedrab;
+  display: flex;
+  justify-content: center;
+}
+.body {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightcoral;
+}
+.input_container {
+  padding: 2rem;
+  width: 100%;
+  height: 100vh;
+}
+.input_container input {
+  padding: 1rem;
+  width: 200px;
+  font-size: 16px;
+}
+.input_container button {
+  margin-left: 5%;
+  width: 120px;
+  height: 3.4rem;
+}
+.info {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info h1 {
+  font-size: 5rem;
+}
+.info p {
+  margin-top: 2.5%;
+  font-size: 1.5rem;
+}
